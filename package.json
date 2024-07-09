@@ -1,6 +1,6 @@
 {
   "name": "simple-theme-manager",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A very lightweight npm package that allows you to quickly switch the dark theme",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/paintedfriend/Simple-Theme-Manager.git"
   },
   "author": "Paintedfriend",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "homepage": "https://github.com/paintedfriend/simple-theme-manager"
 }
