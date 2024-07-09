@@ -30,7 +30,7 @@ In your main.js
 import theme_manager from "simple-theme-manager"; // Import a module
 window.theme_manager = theme_manager; // Connect the module to global access
 ```
-On created app
+On created app or in main.js
 ```bash
 theme_manager.init(); // Let's launch the module. If the theme is saved, it is applied. Otherwise, run in auto mode
 ```
