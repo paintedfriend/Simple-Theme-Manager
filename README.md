@@ -5,13 +5,6 @@
 
 </div>
 
-# :notebook_with_decorative_cover: Table of Contents
-
-- [About the Project](#star2-about-the-project)
-
-
-## :star2: About the Project
-
 ### :dart: Features
 - Light weight
 - System theme support
@@ -26,12 +19,12 @@
 ### :bangbang: Prerequisites
 
 - Install Node JS in your computer <a href="https://nodejs.org/en/">Here</a>
-- Install Simple Theme Manager 
+
+### :gear: Installation
+In your terminal
 ```bash
 npm i simple-theme-manager
 ```
-
-### :gear: Installation
 In your main.js
 ```bash
 import theme_manager from "simple-theme-manager"; // Import a module
@@ -42,21 +35,21 @@ On created app
 theme_manager.init(); // Let's launch the module. If the theme is saved, it is applied. Otherwise, run in auto mode
 ```
 
-### ✍️: Using
+### ✍️ Using
 Apply theme
+In auto mode, you can change the theme on your device, and it will also change in the application.
 ```bash
 theme_manager.apply("auto" | "light" | "dark"); // One of three modes is applied - Auto, light, dark
 ```
-In auto mode, you can change the theme on your device, and it will also change in the application.
 Get current theme mode
 ```bash
-theme_manager.getMode()
+theme_manager.getMode() // Returns auto | light | dark
 ```
 Get current theme
 ```bash
-theme_manager.getTheme()
+theme_manager.getTheme() // Returns light | dark (even in auto mode)
 ```
 Reset settings
 ```bash
-theme_manager.reset()
+theme_manager.reset() // Deletes data from localStorage and applies auto mode
 ```
