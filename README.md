@@ -32,10 +32,10 @@ npm i simple-theme-manager
 ```
 
 ### :gear: Installation
-Import module in your main.js
+In your main.js
 ```bash
-import theme_manager from "simple-theme-manager";
-window.theme_manager = theme_manager;
+import theme_manager from "simple-theme-manager"; // Import a module
+window.theme_manager = theme_manager; // Connect the module to global access
 ```
 On created app
 ```bash
