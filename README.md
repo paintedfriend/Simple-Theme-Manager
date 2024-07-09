@@ -26,14 +26,12 @@
 ### :bangbang: Prerequisites
 
 - Install Node JS in your computer<a href="https://nodejs.org/en/"> Here</a>
-
-
-### :gear: Installation
-
-In your terminal
+- Install Simple Theme Manager 
 ```bash
 npm i simple-theme-manager
 ```
+
+### :gear: Installation
 In your main.js
 ```bash
 import theme_manager from "simple-theme-manager"; window.theme_manager = theme_manager;
