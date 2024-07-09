@@ -1,6 +1,6 @@
 {
   "name": "simple-theme-manager",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A very lightweight npm package that allows you to quickly switch the dark theme",
   "main": "index.js",
   "scripts": {
