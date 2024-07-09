@@ -39,7 +39,7 @@ window.theme_manager = theme_manager; // Connect the module to global access
 ```
 On created app
 ```bash
-theme_manager.init();
+theme_manager.init(); // Let's launch the module. If the theme is saved, it is applied. Otherwise, the automatic theme is applied
 ```
 Apply theme
 ```bash
