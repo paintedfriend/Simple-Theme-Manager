@@ -39,17 +39,17 @@ theme_manager.init(); // Let's launch the module. If the theme is saved, it is a
 Apply theme
 In auto mode, you can change the theme on your device, and it will also change in the application.
 ```bash
-theme_manager.apply("auto" || "light" || "dark"); // One of three modes is applied - Auto, light, dark
+theme_manager.apply("auto" || "light" || "dark"); // One of three modes is applied - auto, light or dark
 ```
 Get current theme mode
 ```bash
-theme_manager.getMode() // Returns auto | light | dark
+theme_manager.getMode(); // Returns auto | light | dark
 ```
 Get current theme
 ```bash
-theme_manager.getTheme() // Returns light | dark (even in auto mode)
+theme_manager.getTheme(); // Returns light | dark (even in auto mode)
 ```
 Reset settings
 ```bash
-theme_manager.reset() // Deletes data from localStorage and applies auto mode
+theme_manager.reset(); // Deletes data from localStorage and applies auto mode
 ```
